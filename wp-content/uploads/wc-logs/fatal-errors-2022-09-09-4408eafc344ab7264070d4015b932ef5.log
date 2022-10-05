@@ -1,0 +1,8 @@
+2022-09-09T09:15:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_all_modules() in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\page.php:5
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\page.php on line 5
+

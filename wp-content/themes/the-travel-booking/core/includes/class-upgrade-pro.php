@@ -78,7 +78,7 @@ final class The_Travel_Booking_Customize {
 					'pro_url'     => 'https://www.misbahwp.com/themes/travel-booking-wordpress-theme/',
 					'pro_demo_text'    => esc_html__( 'View Demo', 'the-travel-booking' ),
 					'pro_demo_url'     => 'https://www.misbahwp.com/demo/the-travel-booking/',
-					'priority'    => 5,
+					'priority'    => 1,
 				)
 			)
 		);
