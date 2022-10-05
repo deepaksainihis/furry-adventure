@@ -1,0 +1,28 @@
+2022-09-13T06:46:35+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:46:37+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:46:42+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:46:50+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:47:24+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:47:30+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:47:37+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:48:51+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:49:31+00:00 CRITICAL syntax error, unexpected token ")" in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 380
+
+2022-09-13T06:59:36+00:00 CRITICAL Uncaught Error: Call to undefined function exlode() in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php:386
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-settings.php(566): include()
+#1 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\themes\the-travel-booking\functions.php on line 386
+

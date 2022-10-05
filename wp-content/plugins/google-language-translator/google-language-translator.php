@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google Language Translator
 Plugin URI: https://gtranslate.io/?xyz=3167
-Version: 6.0.14
+Version: 6.0.15
 Description: The MOST SIMPLE Google Translator plugin.  This plugin adds Google Translator to your website by using a single shortcode, [google-translator]. Settings include: layout style, hide/show specific languages, hide/show Google toolbar, and hide/show Google branding. Add the shortcode to pages, posts, and widgets.
 Author: Translate AI Multilingual Solutions
 Author URI: https://gtranslate.io
@@ -2574,4 +2574,5 @@ if($glt_seo_active != '1') {
 
     // WP Rocket
     add_filter('rocket_exclude_js', 'cache_exclude_js_glt');
+    add_filter('rocket_minify_excluded_external_js', 'cache_exclude_js_glt');
 }

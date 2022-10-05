@@ -1,0 +1,90 @@
+2022-09-08T06:36:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\header.php:23
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementskit-lite\modules\header-footer\theme-hooks\theme-support.php(39): locate_template(Array, true)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(309): ElementsKit_Lite\Modules\Header_Footer\Theme_Hooks\Theme_Support->get_header('')
+#4 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furry-adventure\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#7 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#8 C:\xampp\htdocs\furry-adventure\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\header.php on line 23
+
+2022-09-08T06:53:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_all_modules() in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\page.php:5
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\page.php on line 5
+
+2022-09-08T07:58:09+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\screens\default.php:11
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\recently-viewed-products.php(1547): include()
+#1 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\base\widget.php(52): Elementor\Shopengine_Recently_Viewed_Products->screen()
+#2 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\controls-stack.php(2223): ShopEngine\Base\Widget->render()
+#3 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#6 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(787): Elementor\Element_Base->print_element()
+#7 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#8 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(787): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\core\base\document.php(1635): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\core\base\document.php(1086): Elementor\Core\Base\Document->print_elements(Array)
+#12 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#13 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\frontend.php(1160): Elementor\Frontend->get_builder_content(211, false)
+#14 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base-content.php(44): Elementor\Frontend->get_builder_content_for_display(211)
+#15 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine\Core\Page_Templates\Hooks\Base_Content->content_filter('<p>This is a sh...')
+#16 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>This is a sh...', Array)
+#17 C:\xampp\htdocs\furry-adventure\wp-includes\post-template.php(253): apply_filters('the_content', 'This is a shope...')
+#18 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base-content.php(57): the_content()
+#19 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\screens\content-archive.php(13): ShopEngine\Core\Page_Templates\Hooks\Base_Content->load_content_designed_from_builder()
+#20 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base.php(162): include_once('C:\\xampp\\htdocs...')
+#21 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#22 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Object(Closure))
+#23 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\furry-adventure\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\screens\default.php on line 11
+
+2022-09-08T07:58:14+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\screens\default.php:11
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\recently-viewed-products.php(1547): include()
+#1 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\base\widget.php(52): Elementor\Shopengine_Recently_Viewed_Products->screen()
+#2 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\controls-stack.php(2223): ShopEngine\Base\Widget->render()
+#3 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#5 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Widget_Base->print_content()
+#6 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(787): Elementor\Element_Base->print_element()
+#7 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#8 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(787): Elementor\Element_Base->print_element()
+#9 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\base\element-base.php(447): Elementor\Element_Base->print_content()
+#10 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\core\base\document.php(1635): Elementor\Element_Base->print_element()
+#11 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\core\base\document.php(1086): Elementor\Core\Base\Document->print_elements(Array)
+#12 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\frontend.php(1092): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#13 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\includes\frontend.php(1160): Elementor\Frontend->get_builder_content(211, false)
+#14 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base-content.php(44): Elementor\Frontend->get_builder_content_for_display(211)
+#15 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine\Core\Page_Templates\Hooks\Base_Content->content_filter('<p>This is a sh...')
+#16 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(191): WP_Hook->apply_filters('<p>This is a sh...', Array)
+#17 C:\xampp\htdocs\furry-adventure\wp-includes\post-template.php(253): apply_filters('the_content', 'This is a shope...')
+#18 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base-content.php(57): the_content()
+#19 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\screens\content-archive.php(13): ShopEngine\Core\Page_Templates\Hooks\Base_Content->load_content_designed_from_builder()
+#20 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\core\page-templates\hooks\base.php(162): include_once('C:\\xampp\\htdocs...')
+#21 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#22 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Object(Closure))
+#23 C:\xampp\htdocs\furry-adventure\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#24 C:\xampp\htdocs\furry-adventure\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\furry-adventure\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\furry-adventure\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\widgets\recently-viewed-products\screens\default.php on line 11
+
+2022-09-08T09:36:18+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\furry-adventure\wp-content\themes\DreamNumber\functions.php on line 153
+

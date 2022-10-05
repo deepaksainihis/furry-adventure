@@ -2,17 +2,17 @@
 Contributors: misbahwp
 Tags: photography, food-and-drink, entertainment, wide-blocks, one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, editor-style, theme-options, threaded-comments, rtl-language-support
 Requires at least: 5.0
-Stable tag: 1.6
+Stable tag: 1.9
 Requires PHP: 7.2
-Tested up to: 5.9
+Tested up to: 6.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Travel Booking is a creative WordPress theme ideal for tourism, holiday, accommodation, resort, travel agency, travel booking, travel package, tour operator, hotel booking, car operator, travel adventure and such related websites. You can add trip types, destinations, highlight your package features and allow visitors to book the trips. 
+Travel Booking is a creative WordPress theme ideal for tourism, holiday, accommodation, resort, travel agency, travel booking, travel package, tour operator, hotel booking, car operator, travel adventure and such related websites. You can add trip types, destinations, highlight your package features and allow visitors to book the trips.
 
 == Description ==
 
-Travel Booking is a creative WordPress theme ideal for tourism, holiday, accommodation, resort, travel agency, travel booking, travel package, tour operator, hotel booking, car operator, travel adventure and such related websites. You can add trip types, destinations, highlight your package features and allow visitors to book the trips. It shows compatibility with numerous WordPress plugins like Contact form 7, WooCommerce, etc. The theme is written well with clean, optimized and secure codes. It is SEO-friendly theme that will assist your website to rank fast on major search engines. It is mobile-friendly too with responsive layout that fits well on any device. It is translation-ready and also has support for RTL layout. You get many options for personalization and customization. If you know coding you can add custom CSS/JS and shortcodes to it to add more functionality to your site. The page load time is faster as the theme is optimized for speed. Its design is modern, luxurious, user-friendly and professional that will hook your visitors to the site. With the social media option you can integrate all your social media pages to show credibility. It has a testimonial section where your clients and visitors can give reviews and comments on your services. 
+Travel Booking is a creative WordPress theme ideal for tourism, holiday, accommodation, resort, travel agency, travel booking, travel package, tour operator, hotel booking, car operator, travel adventure and such related websites. You can add trip types, destinations, highlight your package features and allow visitors to book the trips. It shows compatibility with numerous WordPress plugins like Contact form 7, WooCommerce, etc. The theme is written well with clean, optimized and secure codes. It is SEO-friendly theme that will assist your website to rank fast on major search engines. It is mobile-friendly too with responsive layout that fits well on any device. It is translation-ready and also has support for RTL layout. You get many options for personalization and customization. If you know coding you can add custom CSS/JS and shortcodes to it to add more functionality to your site. The page load time is faster as the theme is optimized for speed. Its design is modern, luxurious, user-friendly and professional that will hook your visitors to the site. With the social media option you can integrate all your social media pages to show credibility. It has a testimonial section where your clients and visitors can give reviews and comments on your services.
 
 == Changelog ==
 
@@ -47,6 +47,20 @@ Travel Booking is a creative WordPress theme ideal for tourism, holiday, accommo
 * Updated slider settings.
 * Defined URLs.
 * Updated PHP version.
+
+= 1.7 = May - 06 - 2022
+
+* Added class in global color.
+* Updated responsive media.
+
+= 1.8 = June - 24 - 2022
+
+* Added menu text transform settings.
+* Updated PHP version.
+
+= 1.9 = July - 28 - 2022
+
+* Added typography.
 
 == Resources ==
 

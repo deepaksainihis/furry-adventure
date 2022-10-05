@@ -1,0 +1,81 @@
+2022-08-25T06:08:27+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furry-adventure\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+
+2022-08-25T06:08:29+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furry-adventure\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+
+2022-08-25T06:09:05+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+
+2022-08-25T06:09:06+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+
+2022-08-25T06:09:09+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+
+2022-08-25T06:09:25+00:00 CRITICAL Uncaught Error: Class "ShopEngine\Widgets\Manifest" not found in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php:191
+Stack trace:
+#0 C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\shopengine.php(287): ShopEngine\Plugin->init()
+#1 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(307): ShopEngine->init('')
+#2 C:\xampp\htdocs\furry-adventure\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\furry-adventure\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\furry-adventure\wp-settings.php(461): do_action('plugins_loaded')
+#5 C:\xampp\htdocs\furry-adventure\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furry-adventure\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furry-adventure\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furry-adventure\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\furry-adventure\wp-content\plugins\shopengine\plugin.php on line 191
+

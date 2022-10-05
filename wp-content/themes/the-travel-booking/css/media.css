@@ -10,6 +10,9 @@
     right: 10%;
     left: 10%;
   }
+  .blog_box p{
+    display: none;
+  }
   button.menu-toggle:focus, a.open-search-form:focus {
     outline: 3px solid #ffbc00 !important;
     text-decoration: none !important;

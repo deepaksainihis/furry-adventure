@@ -51,6 +51,73 @@ if ( class_exists("Kirki")){
 		],
 	] );
 
+	//FONT STYLE TYPOGRAPHY
+
+	Kirki::add_panel( 'the_travel_booking_panel_id', array(
+	    'priority'    => 10,
+	    'title'       => esc_html__( 'Typography', 'the-travel-booking' ),
+	) );
+
+	Kirki::add_section( 'the_travel_booking_font_style_section', array(
+		'title'      => esc_attr__( 'Typography Option',  'the-travel-booking' ),
+		'priority'   => 2,
+		'capability' => 'edit_theme_options',
+	) );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'the_travel_booking_all_headings_typography',
+		'section'     => 'the_travel_booking_font_style_section',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Heading Of All Sections',  'the-travel-booking' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'global', array(
+		'type'        => 'typography',
+		'settings'    => 'the_travel_booking_all_headings_typography',
+		'label'       => esc_attr__( 'Heading Typography',  'the-travel-booking' ),
+		'description' => esc_attr__( 'Select the typography options for your heading.',  'the-travel-booking' ),
+		'help'        => esc_attr__( 'The typography options you set here will override the Body Typography options for all headers on your site (post titles, widget titles etc).',  'the-travel-booking' ),
+		'section'     => 'the_travel_booking_font_style_section',
+		'priority'    => 10,
+		'default'     => array(
+			'font-family'    => '',
+			'variant'        => '',
+		),
+		'output' => array(
+			array(
+				'element' => array( 'h1','h2','h3','h4','h5','h6', ),
+			),
+		),
+	) );
+
+	Kirki::add_field( 'theme_config_id', [
+		'type'        => 'custom',
+		'settings'    => 'the_travel_booking_body_content_typography',
+		'section'     => 'the_travel_booking_font_style_section',
+			'default'         => '<h3 style="color: #2271b1; padding:10px; background:#fff; margin:0; border-left: solid 5px #2271b1; ">' . __( 'Body Content',  'the-travel-booking' ) . '</h3>',
+		'priority'    => 10,
+	] );
+
+	Kirki::add_field( 'global', array(
+		'type'        => 'typography',
+		'settings'    => 'the_travel_booking_body_content_typography',
+		'label'       => esc_attr__( 'Content Typography',  'the-travel-booking' ),
+		'description' => esc_attr__( 'Select the typography options for your heading.',  'the-travel-booking' ),
+		'help'        => esc_attr__( 'The typography options you set here will override the Body Typography options for all headers on your site (post titles, widget titles etc).',  'the-travel-booking' ),
+		'section'     => 'the_travel_booking_font_style_section',
+		'priority'    => 10,
+		'default'     => array(
+			'font-family'    => '',
+			'variant'        => '',
+		),
+		'output' => array(
+			array(
+				'element' => array( 'body', ),
+			),
+		),
+	) );
+
 	// PANEL
 
 	Kirki::add_panel( 'the_travel_booking_panel_id', array(
@@ -75,6 +142,22 @@ if ( class_exists("Kirki")){
 		'default'     => '1',
 		'priority'    => 10,
 	] );
+
+	new \Kirki\Field\Select(
+	[
+		'settings'    => 'menu_text_transform_the_travel_booking',
+		'label'       => esc_html__( 'Menus Text Transform', 'the-travel-booking' ),
+		'section'     => 'the_travel_booking_section_scroll',
+		'default'     => 'CAPITALISE',
+		'placeholder' => esc_html__( 'Choose an option', 'the-travel-booking' ),
+		'choices'     => [
+			'CAPITALISE' => esc_html__( 'CAPITALISE', 'the-travel-booking' ),
+			'UPPERCASE' => esc_html__( 'UPPERCASE', 'the-travel-booking' ),
+			'LOWERCASE' => esc_html__( 'LOWERCASE', 'the-travel-booking' ),
+
+		],
+	]
+	);
 
 	// COLOR SECTION
 
@@ -556,5 +639,5 @@ if ( class_exists("Kirki")){
 			'on'  => esc_html__( 'Enable', 'the-travel-booking' ),
 			'off' => esc_html__( 'Disable', 'the-travel-booking' ),
 		],
-	] );	
+	] );
 }
