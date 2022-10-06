@@ -188,3 +188,15 @@ function data_fetch(){
 
     die();
 }
+
+function insert_records($table, $data = array()){
+	global $wpdb;
+	$result = '';
+	if($table && $data){
+		$result = $wpdb->insert(
+			$table,
+			$data
+		);
+	}
+	return $result;
+}
