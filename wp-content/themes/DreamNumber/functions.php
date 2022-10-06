@@ -199,4 +199,4 @@ function insert_records($table, $data = array()){
 		);
 	}
 	return $result;
-}
+} 
